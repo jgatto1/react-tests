@@ -20,7 +20,7 @@ function RenderDish({dish}) {
     }
 }
 
-function RenderComments({comments}) {
+const RenderComments = ({comments}) => {
     if (comments) {
         const commentsRender = comments.map((c) => {
             return (
